@@ -1,0 +1,27 @@
+{
+  "name": "@codecb/babel-jest",
+  "version": "0.0.2",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "babel-jest": "29.0.3"
+  },
+  "devDependencies": {
+    "@codecb/prettierrc": "0.0.1",
+    "@codecb/tsconfigs": "0.0.9",
+    "prettier": "2.7.1",
+    "typescript": "4.8.3"
+  },
+  "peerDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "@babel/preset-typescript": "*"
+  },
+  "prettier": "@codecb/prettierrc"
+}
